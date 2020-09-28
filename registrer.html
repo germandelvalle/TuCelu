@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuCelu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5e1cfa8710.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__logo">
+            TuCelu
+        </h1>
+        
+        <i class="fas fa-bars header__icon" id="icono"></i>
+        
+        <nav class="header__navbar displayNone" id="navbar">
+
+            <a class="header__navbar--item" href="index.html">Home</a>
+
+            <a class="header__navbar--item" href="about.html">Acerca de</a> 
+
+            <a class="header__navbar--item" href="contact.html">Contacto</a>
+
+            <a class="header__navbar--item" href="registrer.html">Registrate</a>
+
+            <a class="header__navbar--item" href="locals.html">Sucursales</a>
+
+        </nav>
+        
+    </header>
+
+    <menu class="menu">
+
+        <form id="formulario" class="menu__form" action="show_data.html">
+
+            
+            <section>
+                <h2 style="margin-bottom: 50px;">
+                    Registrate
+                </h2>
+            </section>
+            
+
+
+            <label for="firstname">Nombre:</label><input type="text" name="firstname" placeholder="Ingrese su nombre aqui">
+            <label for="lastname">Apellido:</label><input type="text" name="lastname" placeholder="Ingrese su apellido aqui">
+            <label for="email">Direccion e-mail:</label><input type="email" name="email">
+            <label for="city">Ciudad:</label><input type="text" name="city">
+            <label for="zipcode">Codigo Postal:</label><input type="number" name="zipcode">
+            <label for="birthdate">Fecha de nacimiento (mm/dd/yyyy):</label><input type="date" name="birthdate">
+            
+            <label>Genero</label>  
+            <section style="margin-bottom: 20px;">
+                <input type="radio" name="gender" value="hombre" checked="">Hombre
+                <input type="radio" name="gender" value="mujer">Mujer
+                <input type="radio" name="gender" value="otro">Otro
+            </section>
+
+            
+            <label>Estudios:</label>
+            <section style="margin-bottom: 20px;">
+                <input type="checkbox" name="conocimientos" value="primario">Primarios
+                <input type="checkbox" name="conocimientos" value="secundario">Secundarios
+                <input type="checkbox" name="conocimientos" value="terciarios">Terciarios
+                <input type="checkbox" name="conocimientos" value="universitarios">Universitarios
+                <input type="checkbox" name="conocimientos" value="otro">Otro
+            </section>
+
+            <input type="submit" value="Enviar">
+            <p>Al pulsar "Enviar" acepta los terminos y condiciones</p>
+        </form>
+    </menu>
+
+    <footer class="footer">
+        <section class="footer__redes">
+            <a class="footer__redes--items" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a class="footer__redes--items" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a class="footer__redes--items" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <a class="footer__redes--items" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        </section>
+        <p class="footer__derechos">todos los derechos reservados</p>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
