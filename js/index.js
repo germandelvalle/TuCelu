@@ -95,22 +95,19 @@ let cards = data.map((card)=>{
 document.getElementById('header').innerHTML=$header
 document.getElementById('footer').innerHTML=$footer
 
-if(url == 'http://127.0.0.1:5500/index.html'){
+if(url == 'https://germandelvalle.github.io/TuCelu/index.html'){
     document.getElementById('products').innerHTML=product;
 }
-if(url == 'http://127.0.0.1:5500/iphone8.html'){
+if(url == 'https://germandelvalle.github.io/TuCelu/iphone8.html'){
     document.getElementById('article0').innerHTML=cards[0];
 }
-if(url == 'http://127.0.0.1:5500/iphone10.html'){
+if(url == 'https://germandelvalle.github.io/TuCelu/iphone10.html'){
     document.getElementById('article1').innerHTML=cards[1];
 }
-if(url == 'http://127.0.0.1:5500/iphone11.html'){
+if(url == 'https://germandelvalle.github.io/TuCelu/iphone11.html'){
     document.getElementById('article2').innerHTML=cards[2];
 }
-// switch(url){
-//     case : document.getElementById('products').innerHTML=product;
-//     case 'http://127.0.0.1:5500/iphone8': document.getElementById('article0').innerHTML=cards[0];
-// }
+
 
 
 
