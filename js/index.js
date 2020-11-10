@@ -95,7 +95,7 @@ let cards = data.map((card)=>{
 document.getElementById('header').innerHTML=$header
 document.getElementById('footer').innerHTML=$footer
 
-if(url == 'https://germandelvalle.github.io/TuCelu/index.html'){
+if(url == 'https://germandelvalle.github.io/TuCelu/index.html' || url == 'https://germandelvalle.github.io/TuCelu/'){
     document.getElementById('products').innerHTML=product;
 }
 if(url == 'https://germandelvalle.github.io/TuCelu/iphone8.html'){
